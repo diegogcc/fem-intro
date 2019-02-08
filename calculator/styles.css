@@ -46,7 +46,7 @@ p {
 .calc-pad{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
 
 .buttons-row {
@@ -75,6 +75,10 @@ p {
   background-color: #ebebeb;
 }
 
+.calc-button:active{
+    background-color: #bbbcbe;
+}
+
 .calc-button.double {
   width: 49.8%;
 }
@@ -90,4 +94,8 @@ p {
 
 .calc-button:last-child:hover {
   background-color: #dfb07e;
+}
+
+.calc-button:last-child:active{
+    background-color: #dd8d37;
 }
