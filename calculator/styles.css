@@ -17,29 +17,15 @@
   width: 400px;
 }
 
-h2 {
-  height: inherit;
-  margin: inherit;
-  width: inherit;
-}
-
-p {
-  height: inherit;
-  margin: inherit;
-  width: inherit;
-  padding-top: 20px;
-  padding-right: 20px;
-}
-
 .result-screen {
   background-color: black;
   color: white;
-  display: flex;
   font-family: "Courier New", Courier, monospace;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: normal;
   height: 100px;
   text-align: right;
+  padding: 20px 10px;
   width: 100%;
 }
 
@@ -65,10 +51,6 @@ p {
   cursor: pointer;
   font-size: 50px;
   width: 24.5%;
-}
-
-.calc-button:focus {
-  outline: 0;
 }
 
 .calc-button:hover {
